@@ -16,7 +16,11 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage(, 200, 200);
 		add(robot);
 
+<<<<<<< HEAD
 		GLabel label = new GLabel("Tanxuan did it", 200, 400);
+=======
+		GLabel label = new GLabel("No screw you mine's better", 200, 400);
+>>>>>>> branch 'main' of https://github.com/COMP55Fall2022/git-prep-team-team1.git
 		add(label);
 	}	
 	
