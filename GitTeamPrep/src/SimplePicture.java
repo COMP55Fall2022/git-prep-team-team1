@@ -7,16 +7,18 @@ import acm.program.GraphicsProgram;
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 700;
 	public static String ROBOT_IMAGE = "robot.png";
+	int X = 200;
 	
 	public void init() {
 		setSize(SIZE, SIZE);
 	}
 	
 	public void run() {
-		GImage robot = new GImage(, 200, 200);
+		
+		GImage robot = new GImage(, X, X);
 		add(robot);
 
-		GLabel label = new GLabel("Tanxuan did it", 200, 400);
+		GLabel label = new GLabel("Tanxuan did it", X, 400);
 		add(label);
 	}	
 	
