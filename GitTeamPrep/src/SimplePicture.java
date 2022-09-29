@@ -20,7 +20,9 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage(, X, X);
 		add(robot);
 
+
 		GLabel label = new GLabel("MArtyr tried to change it", 200, 400);
+
 		add(label);
 	}	
 	
