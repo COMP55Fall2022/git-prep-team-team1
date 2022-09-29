@@ -18,7 +18,7 @@ public class SimplePicture extends GraphicsProgram {
 
 		GLabel label = new GLabel("No screw you mine's better", 200, 400);
 		add(label);
-	}
+	}	
 	
 	public static void main(String[] args) {
 		new SimplePicture().start();
