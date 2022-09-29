@@ -22,7 +22,6 @@ public class SimplePicture extends GraphicsProgram {
 
 
 		GLabel label = new GLabel("Hackslash tried again", 200, 400);
-
 		add(label);
 	}	
 	
