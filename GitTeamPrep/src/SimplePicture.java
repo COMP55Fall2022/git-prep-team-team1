@@ -21,7 +21,7 @@ public class SimplePicture extends GraphicsProgram {
 		add(robot);
 
 
-		GLabel label = new GLabel("MArtyr tried to change it", 200, 400);
+		GLabel label = new GLabel("procrastinator", 200, 400);
 
 		add(label);
 	}	
