@@ -23,7 +23,7 @@ public class SimplePicture extends GraphicsProgram {
 		
 		GImage robot = new GImage(X, X);
 		add(robot);
-		GLabel label = new GLabel("Admin.", 200, 400);
+		GLabel label = new GLabel("I AM THE Admin.", 200, 400);
 
 		add(label);
 	}	
