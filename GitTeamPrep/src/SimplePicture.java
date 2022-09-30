@@ -24,6 +24,7 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage(X, X);
 		add(robot);
 		GLabel label = new GLabel("Martyr reagains control.", 200, 400);
+
 		add(label);
 	}	
 	
