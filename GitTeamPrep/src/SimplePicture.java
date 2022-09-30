@@ -6,6 +6,8 @@
 //tx
 //1stCommit
 //secondCommit
+//hack first commit
+//hack commit 2
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
 import acm.program.GraphicsProgram;
@@ -20,7 +22,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
-		
+		//mart
 		GImage robot = new GImage(X, X);
 		add(robot);
 		GLabel label = new GLabel("Procrestinator.", 200, 400);
