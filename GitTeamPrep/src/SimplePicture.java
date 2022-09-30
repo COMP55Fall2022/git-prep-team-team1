@@ -1,3 +1,5 @@
+// hackslash not push
+// hackslash pushing
 //xt
 //tx
 //1stCommit
@@ -17,12 +19,10 @@ public class SimplePicture extends GraphicsProgram {
 	
 	public void run() {
 		
-		GImage robot = new GImage(, X, X);
+		GImage robot = new GImage(X, X);
 		add(robot);
 
-
-		GLabel label = new GLabel("Koba tried to change it", 200, 400);
-
+		GLabel label = new GLabel("Martyr changed for first step.", 200, 400);
 		add(label);
 	}	
 	
