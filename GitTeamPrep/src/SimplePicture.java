@@ -1,6 +1,10 @@
 // hackslash not push
 // hackslash pushing
+<<<<<<< HEAD
 //xt
+=======
+/xt
+>>>>>>> branch 'main' of https://github.com/COMP55Fall2022/git-prep-team-team1.git
 //tx
 //1stCommit
 //secondCommit
@@ -21,7 +25,6 @@ public class SimplePicture extends GraphicsProgram {
 		
 		GImage robot = new GImage(X, X);
 		add(robot);
-
 		GLabel label = new GLabel("Martyr changed for first step.", 200, 400);
 		add(label);
 	}	
