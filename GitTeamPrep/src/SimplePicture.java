@@ -20,7 +20,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
-		
+		//mart
 		GImage robot = new GImage(X, X);
 		add(robot);
 		GLabel label = new GLabel("I AM THE Admin.", 200, 400);
