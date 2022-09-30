@@ -1,7 +1,8 @@
 // hackslash not push
 // hackslash pushing
 // just another commment
-/xt
+//testing
+//xt
 //tx
 //1stCommit
 //secondCommit
@@ -20,10 +21,8 @@ public class SimplePicture extends GraphicsProgram {
 	
 	public void run() {
 		
-		GImage robot = new GImage(, X, X);
+		GImage robot = new GImage(X, X);
 		add(robot);
-
-
 		GLabel label = new GLabel("Martyr changed for first step.", 200, 400);
 		add(label);
 	}	
@@ -31,4 +30,5 @@ public class SimplePicture extends GraphicsProgram {
 	public static void main(String[] args) {
 		new SimplePicture().start();
 	}
+	//comment
 }
