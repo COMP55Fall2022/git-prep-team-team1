@@ -1,10 +1,7 @@
 // hackslash not push
 // hackslash pushing
-<<<<<<< HEAD
 //xt
-=======
-/xt
->>>>>>> branch 'main' of https://github.com/COMP55Fall2022/git-prep-team-team1.git
+//xt
 //tx
 //1stCommit
 //secondCommit
@@ -32,4 +29,5 @@ public class SimplePicture extends GraphicsProgram {
 	public static void main(String[] args) {
 		new SimplePicture().start();
 	}
+	//comment
 }
