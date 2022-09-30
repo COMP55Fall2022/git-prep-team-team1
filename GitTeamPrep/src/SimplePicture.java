@@ -23,7 +23,7 @@ public class SimplePicture extends GraphicsProgram {
 		
 		GImage robot = new GImage(X, X);
 		add(robot);
-		GLabel label = new GLabel("Martyr changed for first step.", 200, 400);
+		GLabel label = new GLabel("HAckSlash is in control", 200, 400);
 		add(label);
 	}	
 	
